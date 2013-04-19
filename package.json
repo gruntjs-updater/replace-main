@@ -1,0 +1,43 @@
+{
+  "name": "grunt-replace-main",
+  "description": "use to replace data-main attribute when using requirejs.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/xzhang/replace-main",
+  "author": {
+    "name": "zhangxd6",
+    "email": "zhangxd6@hotmail.com",
+    "url":"https://github.com/zhangxd6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangxd6/replace-main.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangxd6/replace-main/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zhangxd6/replace-main/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
