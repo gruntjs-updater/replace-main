@@ -25,7 +25,7 @@ There is file structure
 - Gruntfile.js
 - Scripts
   -srcscriptname.js
--(path)src.html
+-(path)out.html
 
 ```js
 grunt.initConfig({
