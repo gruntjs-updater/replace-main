@@ -21,7 +21,7 @@ module.exports = function(grunt) {
     });
 
     this.data.modules.forEach(function(m) {
-      var filepath = unixifyPath(path.join(process.cwd(), m.path, m.name + '.html'));
+      var filepath = unixifyPath(path.join(process.cwd(), m.path, m.out + '.html'));
 
       if (grunt.file.exists(filepath)) {
         grunt.verbose.writeln('reading ' + filepath);
